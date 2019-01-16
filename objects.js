@@ -1,7 +1,7 @@
 var playlist = {BlocParty: "Helicopter", Meatloaf: "Bat out of hell", Editors: "Munich", MichaelJackson: "Thriller"};
 
 function updatePlaylist (obj, name, title) {
-  Object.assign({}, obj, {name: title});
+  obj.name = title;
   return obj
 }
 
