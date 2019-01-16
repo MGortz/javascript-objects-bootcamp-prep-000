@@ -1,4 +1,4 @@
-var playlist = {BlocParty: "Helicopter", Meatloaf: "Bat out of hell", Editors: "Munich", MichaelJackson: "Thriller"};
+var playlist = {};
 
 function updatePlaylist (obj, name, title) {
   obj.name = title;
